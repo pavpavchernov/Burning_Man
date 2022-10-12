@@ -35,3 +35,17 @@ ul,li {
     padding-bottom: 322px
 
 }
+
+header a {
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+}
