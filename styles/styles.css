@@ -32,7 +32,7 @@ ul,li {
     background: url("../img/header_bg.jpg") no-repeat center top / cover;
     padding-top: 57px;
     color: #fff;
-    padding-bottom: 322px
+    padding-bottom: 773px
 
 }
 
@@ -47,5 +47,11 @@ header a {
 .menu li a {
     text-transform: uppercase;
     text-decoration: none;
+    font-weight: bold;
     font-size: 14px;
+
+}
+
+.menu li {
+    margin-right: 40px;
 }
