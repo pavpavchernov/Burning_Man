@@ -27,6 +27,10 @@ a {
     text-decoration: none;
 }
 
+section {
+    padding-top: 113px
+}
+
 p {
     margin: 0;
 }
@@ -49,7 +53,7 @@ ul,li {
     background: url("../img/header_bg.jpg") no-repeat center top / cover;
     padding-top: 57px;
     color: #fff;
-    padding-bottom: 773px ;
+    padding-bottom: 322px ;
 
 }
 
@@ -67,8 +71,8 @@ header a {
 
 .menu li a {
     text-transform: uppercase;
-    text-decoration: none;
     font-size: 14px;
+    letter-spacing: 0.1em;
 }
 
 .menu li a:hover {
@@ -155,3 +159,13 @@ header a {
     transform: scale(1.1);
 }
 
+.footer_text {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    padding: 114px 0;
+}
+
+.name {
+    margin-left: 10px;
+}
