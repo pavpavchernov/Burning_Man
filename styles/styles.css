@@ -3,7 +3,6 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Anton', sans-serif;
-    font-family: 'Open Sans', sans-serif;
     color: black;
     font-size: 16px;
 }
@@ -12,6 +11,24 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0;
 	margin: 0;
 	text-transform: uppercase;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 58px;
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 28px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
 }
 
 ul,li {
@@ -32,12 +49,16 @@ ul,li {
     background: url("../img/header_bg.jpg") no-repeat center top / cover;
     padding-top: 57px;
     color: #fff;
-    padding-bottom: 773px
+    padding-bottom: 773px ;
 
 }
 
 header a {
     color: #fff;
+}
+
+.logo {
+    margin-right: 69px;
 }
 
 .menu {
@@ -47,11 +68,90 @@ header a {
 .menu li a {
     text-transform: uppercase;
     text-decoration: none;
-    font-weight: bold;
     font-size: 14px;
+}
 
+.menu li a:hover {
+    border-bottom: 1px solid #fff;
 }
 
 .menu li {
     margin-right: 40px;
 }
+
+.tel {
+    font-size: 17px;
+    margin-left: auto ; 
+    letter-spacing: 0.1em;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.offer {
+    text-transform: uppercase;
+    margin-top: 216px;
+}
+
+.offer p {
+    font-size: 30px;
+    letter-spacing: 0.1em;
+}
+.offer h1 {
+    font-size: 100px;
+    margin-bottom: 19px;
+    margin-top: 0.02;
+    margin-top: -9px;
+    
+}
+
+.btn {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+    border: 1px solid #fff;
+    width: 238px;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+.description {
+	display: flex;
+	justify-content: space-between;
+}
+
+.description p {
+    font-family:'Open Sans',sans-serif ;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.62em;
+}
+
+.desc-left,
+.desc-right {
+    width: 567px;
+}
+
+.gallery {
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery img {
+    transition: all 0.5s ease;
+}
+
+.gallery img:hover {
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    transform: scale(1.1);
+}
+
